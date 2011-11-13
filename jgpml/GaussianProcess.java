@@ -539,7 +539,7 @@ public class GaussianProcess {
 
         Matrix params0 = new Matrix(logtheta0);
 
-        Matrix[] data = CSVtoMatrix.load("/home/rdenardi/workspace/jgpml/src/armdata.csv",6,1);
+        Matrix[] data = CSVtoMatrix.load("../armdata.csv",6,1);
         Matrix X = data[0];
         Matrix Y = data[1];
 
@@ -590,7 +590,7 @@ public class GaussianProcess {
 //            plot.fillPlot();
 //        }
 
-        Matrix[] datastar = CSVtoMatrix.load("/home/rdenardi/workspace/jgpml/src/armdatastar.csv",6,1);
+        Matrix[] datastar = CSVtoMatrix.load("../armdatastar.csv",6,1);
         Matrix Xstar = datastar[0];
         Matrix Ystar = datastar[1];
 

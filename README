@@ -6,6 +6,9 @@ The code is essentially identical to the one of the gpml library, however it has
 
 In the current version only the part of the library that deals with regression has been implemented. 
 
+
+A simple example of training and prediction can be found in the main method of the GaussianProcess class
+
 == Required Dependencies ==
 
 * Jama Matrix library that can be downloaded from http://math.nist.gov/javanumerics/jama/
